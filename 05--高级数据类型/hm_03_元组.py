@@ -1,0 +1,8 @@
+info_tuple = ("dading",12,12,19.998,"kepai",12,12)
+print(type(info_tuple))
+index = info_tuple.index("kepai")
+count = info_tuple.count(12)
+print(count)
+print(index)
+print(info_tuple[2])
+print(type(list(info_tuple)))
