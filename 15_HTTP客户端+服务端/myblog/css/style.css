@@ -1,0 +1,103 @@
+/*整体 begin*/
+*{margin:0;padding:0}
+body{background:#F3f2ED}
+.clear{clear:both}
+/*整体end*/
+
+/*top begin*/
+.top{background:#000000;height:60px}
+.top-box{width:1000px;margin:0 auto}
+.menu{float:left}
+.menu a{text-decoration:none;color:#ffffff;font-size:14px;display:block;float:left;
+padding:15px 20px;border-bottom:5px solid #7E7D80 }
+.menu .current{border-color:#89c587}
+.search {float:right}
+.search .text{background:#ffffff;border:0;padding:8px 10px;
+font-size:14px;border-radius:10px solid #7E7D80}
+.menu .current{border-color:#89c587}
+.search{float:right}
+.search .text{background:#ffffff;border:0;padding:8px 10px;
+font-size:14px;border-radius:10px;margin-top:13px}
+.search .btn{background:#427A24;border:0;color:#ffffff;padding:8px 20px;
+font-size:14px;border-radius:10px;margin-top:13px}
+/*top end*/
+
+/*head begin*/
+.head{background:#86CF5C;height:170px}
+.head-top{width:1000px;margin:0 auto;height:120px;
+background:url(../images/img03.jpg) 0 23px no-repeat}
+.head-top .title{font-size:40px;color:#ffffff;padding-top:10px}
+.head-bottom{background:#ffffff;width:1000px;margin:0 auto;height:50px}
+.head-top .subtitle{font-size:14px;color:#ffffff}
+.head-bottom{background:#ffffff;width:1000px;margin:0 auto;height:50px}
+/*head end*/
+
+/*main begin*/
+.main{background-color:#ffffff;width:960px;background-image:url(../images/img01.jpg);padding:0 30px;margin:0 auto}
+.main-box{min-height:600px}
+.main-content{width:660px;float:left}
+.main-sidebar{width:245px;float:right}
+.main-bottom{border-top:1px solid #ccc;padding:45px;margin-top:30px;
+text-align:center;color:#999;font-size:12px;font-family:"微软雅黑"}
+/*main end*/
+
+/*article begin*/
+.ar_title{background:url(../images/img04.jpg) no-repeat;font-size:28px;color:#73C945;
+padding-left:40px}
+.ar_content{line-height:28px;margin-top:20px;font-size:14px}
+/*article end*/
+ 
+/*sidebar begin*/
+.side_box{margin-bottom:50px}
+.side_title{border-left:3px solid #73C945;color:#73C945;padding:2px 0 0 5px;
+font-size:20px;margin-bottom:10px}
+/*sidebar end*/
+
+/*博主登录 begin*/
+.login_box{line-height:35px;font-size:14px;border-left:3px solid #F3F2ED;padding-left:5px}
+.login_box .text{width:165px}
+.login_box .btn{background:#427A24;border:0;color:#ffffff;padding:5px 10px;
+font-size:14px;border-radius:5px}
+/*博主登录 end*/
+
+/*用户中心 begin*/
+.ucenter_box{border-left:3px solid #F3F2ED;padding-left:5px}
+.ucenter_box a{color:#427A24}
+/*用户中心 end*/
+
+/*形象墙 begin*/
+.imagewall_box{border-left:3px solid #F3F2ED;padding-left:5px}
+.imagewall_box img{width:235px}
+/*形象墙 end*/
+
+/*导航 begin*/
+.nav{font-size:12px;padding-bottom:30px}
+.nav a{text-decoration:none;color:#427A24}
+/*导航 end*/
+
+ /*文章列表 begin*/
+ .ar_list_item{border-top:1px dashed #ccc;padding:30px 0 50px 0}
+ .ar_list_item .ar_title a{text-decoration:none;color:#73C945}
+ .ar_desc{font-size:12px;margin-top:20px;color:#666}
+ .ar_desc a {text-decoration:none;color:#427a24}
+ /*文章列表 end*/
+ 
+ /*side_list begin*/
+ .side_list ul{line-height:35px;list-style:inside url(../images/img02.jpg);
+font-size:14px}
+.side_list ul a{text-decoration:none;color:#000}
+.side_list ul a:hover{color:#73C945}
+.side_list ul .a2,.side_list ul.a2:hover{color:#427A24}
+.side_list ul li{border-bottom:1px dashed #ccc;
+overflow:hidden;white-space:nowrap}
+/*side_list end*/
+
+/*main begin*/
+.mainform_box{line-height:35px;margin-top:20px;font-size:14px}
+.mainform_box .text{width:300px;padding:2px}
+.mainform_box .select{width:100px;padding:2px}
+.mainform_box .textarea1{width:98%;padding:2px;height:100px}
+.mainform_box .textarea2{width:98%;padding:2px;height:300px}
+.mainform_box .btn{background:#427A24;border:0;color:#ffffff;padding:5px 10px;
+font-size:14px;border-radius:5px}
+/*mainform end*/
